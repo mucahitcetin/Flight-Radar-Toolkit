@@ -22,7 +22,7 @@ const App = () => {
     // ardından her 5 saniyede bir uçuşları al
     const intervalId = setInterval(() => {
       dispatch(getFlights());
-    }, 50000);
+    }, 5000);
 
     // componentWillUnmout (bileşenin ekrandan gitme olayı) çalışırsa sayacı durdur
     return () => clearInterval(intervalId);

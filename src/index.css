@@ -149,7 +149,7 @@ header p {
 .modal-inner {
   background: black;
   width: 300px;
-  height: 90%;
+  height: 100%;
   border-radius: 10px;
   padding: 10px;
   display: flex;
